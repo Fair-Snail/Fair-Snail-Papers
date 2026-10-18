@@ -1,2 +1,2 @@
 # Fair-Ideas
-papper publishings
+paper publishings
