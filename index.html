@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fair-Ideas — Papper Publishings</title>
+  <style>
+    html, body {
+      margin: 0;
+      height: 100%;
+      font-family: Arial, sans-serif;
+    }
+    iframe {
+      display: block;
+      width: 100%;
+      height: calc(100% - 40px);
+      border: 0;
+    }
+    .top {
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="top">
+    <a href="./paper.pdf" target="_blank">Open paper PDF</a>
+  </div>
+  <iframe src="./paper.pdf" title="Research paper">
+    <p>Your browser cannot display the PDF.
+      <a href="./paper.pdf">Open the paper here.</a>
+    </p>
+  </iframe>
+</body>
+</html>
