@@ -1,2 +1,2 @@
-# Fair-Ideas
-paper publishings
+# Fair Snail Ideas
+papers
